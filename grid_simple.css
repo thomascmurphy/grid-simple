@@ -1,0 +1,404 @@
+/*=================== Responsive Stylesheet by Thomas Murphy ===================*/
+
+*{
+    -webkit-font-smoothing: antialiased;
+    /* font-smoothing: antialiased; */
+    -moz-font-smoothing: antialiased;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+h1.no_margin, h2.no_margin, h3.no_margin, h4.no_margin{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+        
+}
+
+p.large, span.large{
+    font-size: 2em;
+}
+
+        
+img, iframe{
+    max-width: 100%;
+}
+        
+        
+.row{
+    display: block;
+    overflow: hidden;
+    width: auto;
+}
+        
+        .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
+            float: left;
+            min-height: 1px;
+            margin-left: 3.5%;
+        }
+        
+        .span1.right, .span2.right, .span3.right, .span4.right, .span5.right, .span6.right, .span7.right, .span8.right, .span9.right, .span10.right, .span11.right, .span12.right{
+            float: right;
+            margin-left: 0%;
+            margin-right: 3.5%;
+        }
+        
+        .span1:first-child, .span2:first-child, .span3:first-child, .span4:first-child, .span5:first-child, .span6:first-child, .span7:first-child, .span8:first-child, .span9:first-child, .span10:first-child, .span11:first-child, .span12:first-child{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+        .span1{
+            width: 5.125%;
+        }
+        
+            .span1.no_margin{
+                width: 8.333%;
+            }
+        
+        .span2{
+            width: 13.75%;
+        }
+            
+            .span2.no_margin{
+                width: 16.666%;
+            }
+        
+        .span3{
+            width: 22.375%;
+        }
+        
+            .span3.no_margin{
+                width: 25%;
+                margin-left: 0%;
+            }
+        
+        .span4{
+            width: 31%;
+        }
+        
+            .span4.no_margin{
+                width: 33.333%;
+                margin-left: 0%;
+            }
+        
+        .span5{
+            width: 39.625%;
+        }
+        
+            .span5.no_margin{
+                width: 41.666%;
+                margin-left: 0%;
+            }
+        
+        .span6{
+            width: 48.25%;
+        }
+        
+            .span6.no_margin{
+                width: 50%;
+                margin-left: 0%;
+            }
+        
+        .span7{
+            width: 56.875%;
+        }
+        
+            .span7.no_margin{
+                width: 58.333%;
+                margin-left: 0%;
+            }
+        
+        .span8{
+            width: 65.5%;
+        }
+        
+            .span8.no_margin{
+                width: 66.666%;
+                margin-left: 0%;
+            }
+        
+        .span9{
+            width: 74.125%;
+        }
+        
+            .span9.no_margin{
+                width: 75%;
+                margin-left: 0%;
+            }
+        
+        .span10{
+            width: 82.75%;
+        }
+        
+            .span10.no_margin{
+                width: 83.333%;
+                margin-left: 0%;
+            }
+        
+        .span11{
+            width: 91.375%;
+        }
+        
+            .span11.no_margin{
+                width: 91.666%;
+                margin-left: 0%;
+            }
+        
+        .span12{
+            width: 100%;
+        }
+        
+            .span12.no_margin{
+                width: 100%;
+                margin-left: 0%;
+            }
+        
+.centered{
+    display: block;
+    text-align: center;
+}
+
+img.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align_right{
+    text-align: right;
+}
+
+.padded_sides{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.white{
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.centered_column{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0em 1em;
+    position: relative;
+}
+
+.centered_column.no_padding{
+    padding: 0em;
+}
+
+.narrow_column{
+    max-width: 575px;
+    margin: 0px auto;
+    padding: 0em 1em;
+    overflow: hidden;
+    position: relative;
+}
+
+.full_height{
+    padding-bottom: 99999px !important;
+    margin-bottom: -99999px !important;
+}
+
+.clear_both{
+    clear: both;
+}
+
+.block{
+    display: block;
+}
+
+.inline_block{
+    display: inline-block;
+}
+
+.relative{
+	position: relative;
+}
+
+.margin_left{
+    margin-left: 1em;
+}
+
+.no_margin_left{
+    margin-left: 0em !important;
+}
+
+.margin_right{
+    margin-right: 1em;
+}
+
+.no_margin_right{
+    margin-right: 0em !important;
+}
+
+.margin_top{
+    margin-top: 1em;
+}
+
+.no_margin_top{
+    margin-top: 0em !important;
+}
+
+.margin_bottom{
+    margin-bottom: 1em;
+}
+
+.no_margin_bottom{
+    margin-bottom: 0em !important;
+}
+                
+div.translucent{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+.light{
+    color: #838383;
+}
+
+.large{
+    font-size: 1.5em;
+}
+
+.alert{
+    display: none;
+    position: fixed;
+    width: 10em;
+    top: 40%;
+    left: 50%;
+    margin-left: -5em;
+    padding: 1em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    z-index: 999;
+}
+
+    .alert .icon{
+        display: block;
+        margin: 0.5em auto;
+        width: 2em;
+        height: 2em;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    
+    .alert .icon.success{
+        background-image: url('');
+    }
+    
+.vertical_center_outer{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+    .vertical_center_inner{
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        text-align: center;
+    }
+    
+                                
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+}
+                                
+/* Portrait tablet to landscape and desktop */
+@media only screen
+and (max-device-width: 979px),
+(max-width: 979px) {
+
+
+}
+
+/* Smaller Browsers */
+@media only screen
+and (max-width: 767px) {
+        
+        body{
+            font-size: 14px;
+        }
+        
+}
+
+/* iPad Styles */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px),
+only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+        
+	.hide_tablet{
+		display: none !important;
+	}
+        
+}
+                                
+/* Phone Styles */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px),
+only screen 
+and (min-width : 320px) 
+and (max-width : 568px) {
+        
+    body{
+            font-size: 12px;
+    }
+    
+    .hide_phone{
+	    display: none !important;
+    }
+    
+    .span1:not(.consistent), .span2:not(.consistent), .span3:not(.consistent), .span4:not(.consistent), .span5:not(.consistent), .span6:not(.consistent), .span7:not(.consistent), .span8:not(.consistent), .span9:not(.consistent), .span10:not(.consistent), .span11:not(.consistent), .span12:not(.consistent){
+            width: auto;
+            float: none;
+            margin: 0px;
+    }
+    
+    .span1:first-child:not(.consistent), .span2:first-child:not(.consistent), .span3:first-child:not(.consistent), .span4:first-child:not(.consistent), .span5:first-child:not(.consistent), .span6:first-child:not(.consistent), .span7:first-child:not(.consistent), .span8:first-child:not(.consistent), .span9:first-child:not(.consistent), .span10:first-child:not(.consistent), .span11:first-child:not(.consistent), .span12:first-child:not(.consistent){
+            margin: 0px;
+    }
+        
+}
+        
+/* Landscape phones and down */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (orientation: portrait),
+only screen 
+and (min-width: 320px)
+and (max-width: 568px)
+and (orientation: portrait) {
+
+        
+}
